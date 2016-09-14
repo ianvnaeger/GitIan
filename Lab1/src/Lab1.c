@@ -15,17 +15,18 @@
 
 int main(void)
 {
-	double radius , area;
+	double radius , /*area*/ circumference;
 
 	printf("Enter the radius of the circle: \n");
 	scanf("%lf", &radius);
 
 	//Gets radius from User
 
-	area = radius * radius * PI;
+//	area = radius * radius * PI;
+//	printf("Area of the circle is: %f \n" , area);
 
-	printf("Area of the circle is: %f \n" , area);
-
+	circumference = 2 * PI * radius;
+	printf("Circumference of the circle is: %f \n" , Circumference);
 	//Calculates and prints Area of the Circle
 
 	return 0;
